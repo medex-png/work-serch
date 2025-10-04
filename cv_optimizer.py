@@ -98,21 +98,22 @@ class CVOptimizer:
     def _standardize_sections(self, text: str) -> str:
         """Standardize section headers for ATS compatibility"""
         # Common variations to standard names
-        section_mappings = {
-            r'\b(professional\s+)?experience\b': 'WORK EXPERIENCE',
-            r'\bemployment\s+history\b': 'WORK EXPERIENCE',
-            r'\bjob\s+history\b': 'WORK EXPERIENCE',
-            r'\beducational\s+background\b': 'EDUCATION',
-            r'\bacademic\s+background\b': 'EDUCATION',
-            r'\bcore\s+competencies\b': 'SKILLS',
-            r'\btechnical\s+skills\b': 'TECHNICAL SKILLS',
-            r'\bprofessional\s+summary\b': 'SUMMARY',
-            r'\bcareer\s+summary\b': 'SUMMARY',
-            r'\babout\s+me\b': 'SUMMARY',
-        }
+        # Order matters - more specific patterns first
+        section_mappings = [
+            (r'\bemployment\s+history\b', 'WORK EXPERIENCE'),
+            (r'\bjob\s+history\b', 'WORK EXPERIENCE'),
+            (r'\bprofessional\s+experience\b', 'WORK EXPERIENCE'),
+            (r'\beducational\s+background\b', 'EDUCATION'),
+            (r'\bacademic\s+background\b', 'EDUCATION'),
+            (r'\bcore\s+competencies\b', 'SKILLS'),
+            (r'\btechnical\s+skills\b', 'TECHNICAL SKILLS'),
+            (r'\bprofessional\s+summary\b', 'SUMMARY'),
+            (r'\bcareer\s+summary\b', 'SUMMARY'),
+            (r'\babout\s+me\b', 'SUMMARY'),
+        ]
         
         standardized = text
-        for pattern, standard in section_mappings.items():
+        for pattern, standard in section_mappings:
             standardized = re.sub(pattern, standard, standardized, 
                                 flags=re.IGNORECASE)
         
