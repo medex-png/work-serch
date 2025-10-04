@@ -1,0 +1,30 @@
+Senior Software Engineer
+
+We are seeking a talented Senior Software Engineer to join our dynamic team. The ideal candidate will have strong experience in full-stack development and cloud technologies.
+
+Key Responsibilities:
+• Design and develop scalable web applications using modern frameworks
+• Implement microservices architecture and RESTful APIs
+• Collaborate with cross-functional teams to deliver high-quality software
+• Mentor junior developers and conduct code reviews
+• Optimize application performance and ensure code quality
+• Work with cloud platforms (AWS, Azure) and containerization technologies
+• Participate in agile development processes and sprint planning
+
+Required Skills:
+• 5+ years of experience in software development
+• Strong proficiency in Python, JavaScript, and React
+• Experience with cloud platforms (AWS or Azure)
+• Knowledge of Docker, Kubernetes, and CI/CD pipelines
+• Understanding of microservices architecture
+• Experience with relational databases (PostgreSQL, MySQL)
+• Strong problem-solving skills and attention to detail
+• Excellent communication and teamwork abilities
+
+Preferred Qualifications:
+• Experience with DevOps practices
+• Knowledge of automated testing frameworks
+• Bachelor's degree in Computer Science or related field
+• Contributions to open-source projects
+
+We offer competitive salary, comprehensive benefits, and opportunities for professional growth in a collaborative environment.

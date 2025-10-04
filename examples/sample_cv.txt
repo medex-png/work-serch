@@ -1,0 +1,33 @@
+John Smith
+Software Developer
+john.smith@email.com | (555) 123-4567 | linkedin.com/in/johnsmith
+
+OBJECTIVE
+Looking for a software developer position where I can use my skills.
+
+WORK EXPERIENCE
+
+Tech Solutions Inc. - Software Developer
+June 2020 - Present
+• Responsible for developing web applications
+• Worked on various projects for clients
+• Helped with bug fixes and maintenance
+• Participated in team meetings
+
+StartUp Co. - Junior Developer
+January 2018 - May 2020
+• Duties included coding and testing
+• Was part of the development team
+• Made contributions to the codebase
+• Did code reviews
+
+EDUCATION
+
+Bachelor of Science in Computer Science
+State University, 2017
+
+SKILLS
+
+Programming: Python, JavaScript, Java
+Database: MySQL
+Tools: Git, VS Code
